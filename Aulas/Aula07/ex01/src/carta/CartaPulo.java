@@ -19,16 +19,7 @@ public final class CartaPulo {
 
         public void exibirInformacoes(String nome){
             if(nome == nome){
-            """
-            Nome: %s,
-            Revelada: %s
-
-            Ação: Pula a vez do jogador!
-            """
-            ,
-            super.nome
-            super.revelada;
-
+                System.out.println("Pula o jogador")
             }
             
         }
